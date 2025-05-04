@@ -1,0 +1,62 @@
+/* Style global du body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    color: #333;
+}
+
+/* Style pour le titre */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+/* Style pour la liste non ordonnée */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style pour chaque élément de liste */
+li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;  /* Espace entre les tâches */
+}
+
+/* Style pour le dernier élément de la liste */
+li:last-child {
+    border-bottom: none;
+}
+
+/* Style pour le bouton delete */
+.btn-delete {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;  /* S'assurer que le lien n'occupe pas toute la largeur */
+    padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Changer l'apparence du bouton "Delete" lorsqu'il est survolé */
+.btn-delete:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+/* Optionnel: Ajouter un style pour l'élément "status" pour qu'il soit bien visible */
+span.done {
+    color: green;
+    font-weight: bold;
+}
+
+span.not-done {
+    color: orange;
+    font-weight: bold;
+}
